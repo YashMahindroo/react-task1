@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+  background-color: #f4f7fc;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* App Wrapper */
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+/* Section Headers */
+h2 {
+  color: #004aad;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #004aad;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3 {
+  color: #0073e6;
+  font-size: 18px;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+/* Paragraph */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Button Styles */
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0073e6;
+}
+
+/* Disabled Button */
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="number"] {
+  border: 2px solid #0073e6;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #004aad;
+  outline: none;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background-color: #f0f4ff;
+  border: 1px solid #0073e6;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Dynamic Item Styling */
+.dynamic-item {
+  background-color: #eaf2ff;
+  border-left: 4px solid #004aad;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #333;
+}
+
+/* Counter Styles */
+.counter-display {
+  background-color: #0073e6;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 28px;
+  margin-top: 10px;
+  text-align: center;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Search Box */
+.search-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"].search-input {
+  width: 300px;
+  padding: 12px;
+  border: 2px solid #0073e6;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"].search-input:focus {
+  border-color: #004aad;
+  outline: none;
+}
